@@ -1,0 +1,47 @@
+$theme-colors: (
+  "primary": #11402e,
+  "warning": #c69801,
+);
+
+$font-family-sans-serif: "Vogie Light Narrow Ita", arial, sans-serif;
+$navbar-brand-font-size: 3rem;
+$navbar-nav-link-padding-x: 1rem;
+$navbar-toggler-font-size: 1.5rem;
+$navbar-light-icon-color: #c69801;
+$navbar-light-toggler-border-color: #c69801;
+$input-btn-font-size: 1.4rem;
+$input-color: #11402e;
+$input-border-color: #c69801;
+$accordion-button-active-bg: #e7f7f1;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.nav-link{
+    font-size: 1.6rem;
+}
+.nav-link:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.h1{
+    color: #11402e;
+    text-decoration: underline wavy;
+}
+.info{
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #747474;
+}
+.main-text{
+    display: flex;
+    font-size: 10rem;
+    color: #11402e;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#Send{
+    padding: 5px 40px;
+}
